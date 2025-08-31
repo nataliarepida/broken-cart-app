@@ -1,0 +1,2325 @@
+[
+  {
+    "id": "1",
+    "name": "iPhone 15 Pro",
+    "price": 999,
+    "category": "electronics",
+    "image": "/product-1",
+    "description": "Latest iPhone with titanium design and A17 Pro chip",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r1-1",
+        "userId": "u123",
+        "userName": "Alex Thompson",
+        "rating": 5,
+        "comment": "Best iPhone ever! The titanium design feels premium and the camera is incredible.",
+        "date": "2024-02-15"
+      },
+      {
+        "id": "r1-2",
+        "userId": "u456",
+        "userName": "Sarah Chen",
+        "rating": 4,
+        "comment": "Great phone but battery life could be better.",
+        "date": "2024-02-10"
+      },
+      {
+        "id": "r1-3",
+        "userId": "u789",
+        "userName": "Mike Johnson",
+        "rating": 5,
+        "comment": "The A17 Pro chip is blazing fast!",
+        "date": "2024-02-05"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "MacBook Air M3",
+    "price": 1299,
+    "category": "electronics",
+    "image": "/product-2",
+    "description": "Ultra-thin laptop with M3 chip and all-day battery life",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r2-1",
+        "userId": "u234",
+        "userName": "Emily Davis",
+        "rating": 5,
+        "comment": "Perfect laptop for work and travel. Battery life is amazing!",
+        "date": "2024-02-12"
+      },
+      {
+        "id": "r2-2",
+        "userId": "u567",
+        "userName": "David Wilson",
+        "rating": 5,
+        "comment": "M3 chip handles everything I throw at it with ease.",
+        "date": "2024-02-08"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Sony WH-1000XM5",
+    "price": 399,
+    "category": "electronics",
+    "image": "/product-3",
+    "description": "Industry-leading noise canceling wireless headphones",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r3-1",
+        "userId": "u890",
+        "userName": "Chris Lee",
+        "rating": 4,
+        "comment": "Great noise cancellation but a bit pricey.",
+        "date": "2024-02-14"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Classic Cotton T-Shirt",
+    "price": 29,
+    "category": "clothing",
+    "image": "/product-4",
+    "description": "100% organic cotton t-shirt in various colors",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r4-1",
+        "userId": "u345",
+        "userName": "Rachel Green",
+        "rating": 5,
+        "comment": "Super comfortable and great quality!",
+        "date": "2024-02-13"
+      },
+      {
+        "id": "r4-2",
+        "userId": "u678",
+        "userName": "Tom Brown",
+        "rating": 4,
+        "comment": "Nice fit but would love more color options.",
+        "date": "2024-02-11"
+      },
+      {
+        "id": "r4-3",
+        "userId": "u901",
+        "userName": "Lisa Anderson",
+        "rating": 5,
+        "comment": "Perfect basic tee, ordering more!",
+        "date": "2024-02-09"
+      },
+      {
+        "id": "r4-4",
+        "userId": "u234",
+        "userName": "Mark Taylor",
+        "rating": 5,
+        "comment": "Great value for the quality.",
+        "date": "2024-02-07"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Denim Jeans",
+    "price": 89,
+    "category": "clothing",
+    "image": "/product-5",
+    "description": "Premium denim jeans with perfect fit",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "6",
+    "name": "Winter Jacket",
+    "price": 199,
+    "category": "clothing",
+    "image": "/product-6",
+    "description": "Waterproof winter jacket with thermal insulation",
+    "inStock": false,
+    "reviews": [
+      {
+        "id": "r6-1",
+        "userId": "u456",
+        "userName": "James Wilson",
+        "rating": 5,
+        "comment": "Extremely warm and waterproof as advertised.",
+        "date": "2024-02-14"
+      },
+      {
+        "id": "r6-2",
+        "userId": "u789",
+        "userName": "Emma Davis",
+        "rating": 4,
+        "comment": "Good quality but runs a bit large.",
+        "date": "2024-02-12"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "The Great Gatsby",
+    "price": 15,
+    "category": "books",
+    "image": "/product-7",
+    "description": "Classic American novel by F. Scott Fitzgerald",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r7-1",
+        "userId": "u012",
+        "userName": "John Smith",
+        "rating": 5,
+        "comment": "A timeless classic, beautiful edition.",
+        "date": "2024-02-15"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Clean Code",
+    "price": 45,
+    "category": "books",
+    "image": "/product-8",
+    "description": "A handbook of agile software craftsmanship",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r8-1",
+        "userId": "u345",
+        "userName": "Michael Chen",
+        "rating": 5,
+        "comment": "Must-read for every developer!",
+        "date": "2024-02-13"
+      },
+      {
+        "id": "r8-2",
+        "userId": "u678",
+        "userName": "Sarah Johnson",
+        "rating": 5,
+        "comment": "Changed how I think about writing code.",
+        "date": "2024-02-10"
+      },
+      {
+        "id": "r8-3",
+        "userId": "u901",
+        "userName": "David Lee",
+        "rating": 4,
+        "comment": "Great principles but some examples are dated.",
+        "date": "2024-02-08"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "JavaScript: The Good Parts",
+    "price": 35,
+    "category": "books",
+    "image": "/product-9",
+    "description": "Essential JavaScript programming guide",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r9-1",
+        "userId": "u234",
+        "userName": "Alex Turner",
+        "rating": 4,
+        "comment": "Concise and insightful, though a bit outdated.",
+        "date": "2024-02-14"
+      },
+      {
+        "id": "r9-2",
+        "userId": "u567",
+        "userName": "Emma Wilson",
+        "rating": 5,
+        "comment": "Helped me understand JS much better!",
+        "date": "2024-02-11"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Coffee Maker",
+    "price": 129,
+    "category": "home",
+    "image": "/product-10",
+    "description": "Programmable coffee maker with thermal carafe",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r10-1",
+        "userId": "u890",
+        "userName": "Chris Anderson",
+        "rating": 5,
+        "comment": "Makes perfect coffee every time!",
+        "date": "2024-02-15"
+      },
+      {
+        "id": "r10-2",
+        "userId": "u123",
+        "userName": "Lisa Brown",
+        "rating": 4,
+        "comment": "Good machine but cleaning could be easier.",
+        "date": "2024-02-12"
+      },
+      {
+        "id": "r10-3",
+        "userId": "u456",
+        "userName": "Tom Davis",
+        "rating": 5,
+        "comment": "Love the thermal carafe feature.",
+        "date": "2024-02-09"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Throw Pillow Set",
+    "price": 49,
+    "category": "home",
+    "image": "/product-11",
+    "description": "Set of 2 decorative throw pillows",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r11-1",
+        "userId": "u547",
+        "userName": "Ryan Anderson",
+        "rating": 5,
+        "comment": "Excellent product, very satisfied.",
+        "date": "2024-02-02"
+      },
+      {
+        "id": "r11-2",
+        "userId": "u580",
+        "userName": "Anna Anderson",
+        "rating": 5,
+        "comment": "Excellent product, very satisfied.",
+        "date": "2024-02-03"
+      },
+      {
+        "id": "r11-3",
+        "userId": "u251",
+        "userName": "Alex White",
+        "rating": 5,
+        "comment": "Great quality and looks beautiful.",
+        "date": "2024-02-05"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Table Lamp",
+    "price": 79,
+    "category": "home",
+    "image": "/product-12",
+    "description": "Modern LED table lamp with adjustable brightness",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r12-1",
+        "userId": "u176",
+        "userName": "Tom Martinez",
+        "rating": 5,
+        "comment": "Excellent product, very satisfied.",
+        "date": "2024-02-03"
+      },
+      {
+        "id": "r12-2",
+        "userId": "u632",
+        "userName": "Daniel Lee",
+        "rating": 5,
+        "comment": "Exactly what we needed!",
+        "date": "2024-02-13"
+      },
+      {
+        "id": "r12-3",
+        "userId": "u316",
+        "userName": "Alex Johnson",
+        "rating": 5,
+        "comment": "Excellent product, very satisfied.",
+        "date": "2024-02-10"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Samsung Galaxy S24",
+    "price": 799,
+    "category": "electronics",
+    "image": "/product-13",
+    "description": "Latest Samsung flagship with AI features",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "14",
+    "name": "Running Shoes",
+    "price": 149,
+    "category": "clothing",
+    "image": "/product-14",
+    "description": "Lightweight running shoes with excellent cushioning",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r14-1",
+        "userId": "u557",
+        "userName": "Julia Wilson",
+        "rating": 4,
+        "comment": "Good quality but sizing runs large.",
+        "date": "2024-02-07"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Cookbook Collection",
+    "price": 65,
+    "category": "books",
+    "image": "/product-15",
+    "description": "Collection of international recipes",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "16",
+    "name": "Smart Thermostat",
+    "price": 249,
+    "category": "home",
+    "image": "/product-16",
+    "description": "WiFi-enabled smart thermostat with app control",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r16-1",
+        "userId": "u183",
+        "userName": "Michael Miller",
+        "rating": 5,
+        "comment": "Perfect addition to our home!",
+        "date": "2024-02-08"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Wireless Earbuds",
+    "price": 179,
+    "category": "electronics",
+    "image": "/product-17",
+    "description": "True wireless earbuds with active noise cancellation",
+    "inStock": false,
+    "reviews": []
+  },
+  {
+    "id": "18",
+    "name": "Hoodie",
+    "price": 69,
+    "category": "clothing",
+    "image": "/product-18",
+    "description": "Comfortable cotton blend hoodie",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r18-1",
+        "userId": "u247",
+        "userName": "James Taylor",
+        "rating": 4,
+        "comment": "Comfortable but price is a bit high.",
+        "date": "2024-02-07"
+      },
+      {
+        "id": "r18-2",
+        "userId": "u356",
+        "userName": "Maria Brown",
+        "rating": 5,
+        "comment": "Love the design and comfort!",
+        "date": "2024-02-03"
+      },
+      {
+        "id": "r18-3",
+        "userId": "u581",
+        "userName": "Anna Miller",
+        "rating": 4,
+        "comment": "Good purchase, minor fit issues.",
+        "date": "2024-02-03"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "4K Smart TV",
+    "price": 899,
+    "category": "electronics",
+    "image": "/product-19",
+    "description": "65-inch 4K Smart TV with HDR",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r19-1",
+        "userId": "u286",
+        "userName": "James Smith",
+        "rating": 5,
+        "comment": "Works perfectly, highly recommend!",
+        "date": "2024-02-02"
+      },
+      {
+        "id": "r19-2",
+        "userId": "u228",
+        "userName": "Julia Martin",
+        "rating": 4,
+        "comment": "Nice product, still learning all the features.",
+        "date": "2024-02-11"
+      },
+      {
+        "id": "r19-3",
+        "userId": "u544",
+        "userName": "Rachel Thompson",
+        "rating": 5,
+        "comment": "Best tech purchase I've made this year.",
+        "date": "2024-02-02"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Gaming Console",
+    "price": 499,
+    "category": "electronics",
+    "image": "/product-20",
+    "description": "Next-gen gaming console with 4K gaming",
+    "inStock": false,
+    "reviews": [
+      {
+        "id": "r20-1",
+        "userId": "u243",
+        "userName": "John Wilson",
+        "rating": 5,
+        "comment": "Excellent performance and build quality!",
+        "date": "2024-02-13"
+      },
+      {
+        "id": "r20-2",
+        "userId": "u890",
+        "userName": "Rachel Miller",
+        "rating": 5,
+        "comment": "Works perfectly, highly recommend!",
+        "date": "2024-02-03"
+      },
+      {
+        "id": "r20-3",
+        "userId": "u676",
+        "userName": "Ryan Jones",
+        "rating": 5,
+        "comment": "Amazing features and easy to use.",
+        "date": "2024-02-11"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Wireless Mouse",
+    "price": 49,
+    "category": "electronics",
+    "image": "/product-21",
+    "description": "Ergonomic wireless mouse with long battery life",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r21-1",
+        "userId": "u288",
+        "userName": "Rachel Williams",
+        "rating": 5,
+        "comment": "Excellent performance and build quality!",
+        "date": "2024-02-06"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Bluetooth Speaker",
+    "price": 129,
+    "category": "electronics",
+    "image": "/product-22",
+    "description": "Portable Bluetooth speaker with 20-hour battery",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r22-1",
+        "userId": "u474",
+        "userName": "Lisa Martinez",
+        "rating": 5,
+        "comment": "Best tech purchase I've made this year.",
+        "date": "2024-02-14"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Dress Shirt",
+    "price": 59,
+    "category": "clothing",
+    "image": "/product-23",
+    "description": "Classic fit dress shirt in wrinkle-free cotton",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r23-1",
+        "userId": "u512",
+        "userName": "Lisa Davis",
+        "rating": 4,
+        "comment": "Nice material but limited color options.",
+        "date": "2024-02-06"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Wool Sweater",
+    "price": 89,
+    "category": "clothing",
+    "image": "/product-24",
+    "description": "Merino wool sweater in various colors",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "25",
+    "name": "Leather Jacket",
+    "price": 299,
+    "category": "clothing",
+    "image": "/product-25",
+    "description": "Classic leather motorcycle jacket",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r25-1",
+        "userId": "u356",
+        "userName": "Daniel Smith",
+        "rating": 5,
+        "comment": "Perfect fit and great quality!",
+        "date": "2024-02-07"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Design Patterns",
+    "price": 49,
+    "category": "books",
+    "image": "/product-26",
+    "description": "Elements of Reusable Object-Oriented Software",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r26-1",
+        "userId": "u362",
+        "userName": "Tom Thomas",
+        "rating": 5,
+        "comment": "Beautifully written and engaging.",
+        "date": "2024-02-11"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "name": "1984",
+    "price": 12,
+    "category": "books",
+    "image": "/product-27",
+    "description": "George Orwell's dystopian masterpiece",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r27-1",
+        "userId": "u489",
+        "userName": "Sophie Garcia",
+        "rating": 4,
+        "comment": "Interesting story, translation could be better.",
+        "date": "2024-02-12"
+      },
+      {
+        "id": "r27-2",
+        "userId": "u829",
+        "userName": "Maria Martinez",
+        "rating": 5,
+        "comment": "Thoroughly enjoyed this book.",
+        "date": "2024-02-12"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "name": "To Kill a Mockingbird",
+    "price": 14,
+    "category": "books",
+    "image": "/product-28",
+    "description": "Harper Lee's Pulitzer Prize-winning novel",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r28-1",
+        "userId": "u604",
+        "userName": "Tom Moore",
+        "rating": 5,
+        "comment": "A must-read, excellent edition.",
+        "date": "2024-02-10"
+      },
+      {
+        "id": "r28-2",
+        "userId": "u592",
+        "userName": "Chris Jones",
+        "rating": 5,
+        "comment": "Beautifully written and engaging.",
+        "date": "2024-02-01"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Sofa Set",
+    "price": 999,
+    "category": "home",
+    "image": "/product-29",
+    "description": "Modern 3-piece sofa set with ottoman",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r29-1",
+        "userId": "u891",
+        "userName": "Anna Smith",
+        "rating": 5,
+        "comment": "Excellent product, very satisfied.",
+        "date": "2024-02-10"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Dining Table",
+    "price": 599,
+    "category": "home",
+    "image": "/product-30",
+    "description": "6-seater wooden dining table",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "31",
+    "name": "iPad Pro",
+    "price": 799,
+    "category": "electronics",
+    "image": "/product-31",
+    "description": "12.9-inch iPad Pro with M2 chip",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r31-1",
+        "userId": "u170",
+        "userName": "Michael Lee",
+        "rating": 5,
+        "comment": "Best tech purchase I've made this year.",
+        "date": "2024-02-13"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Cargo Pants",
+    "price": 79,
+    "category": "clothing",
+    "image": "/product-32",
+    "description": "Comfortable cargo pants with multiple pockets",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r32-1",
+        "userId": "u705",
+        "userName": "Laura Davis",
+        "rating": 5,
+        "comment": "Perfect fit and great quality!",
+        "date": "2024-02-09"
+      },
+      {
+        "id": "r32-2",
+        "userId": "u560",
+        "userName": "David Taylor",
+        "rating": 5,
+        "comment": "Excellent material and craftsmanship.",
+        "date": "2024-02-11"
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Lord of the Rings",
+    "price": 45,
+    "category": "books",
+    "image": "/product-33",
+    "description": "Complete trilogy in hardcover",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r33-1",
+        "userId": "u774",
+        "userName": "Maria Wilson",
+        "rating": 4,
+        "comment": "Well written but not my favorite.",
+        "date": "2024-02-10"
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Bedding Set",
+    "price": 129,
+    "category": "home",
+    "image": "/product-34",
+    "description": "100% cotton bedding set with duvet cover",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r34-1",
+        "userId": "u531",
+        "userName": "Tom Moore",
+        "rating": 4,
+        "comment": "Works well, slightly overpriced.",
+        "date": "2024-02-13"
+      },
+      {
+        "id": "r34-2",
+        "userId": "u887",
+        "userName": "Sarah Williams",
+        "rating": 5,
+        "comment": "Exactly what we needed!",
+        "date": "2024-02-02"
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "name": "Smart Display",
+    "price": 129,
+    "category": "electronics",
+    "image": "/product-35",
+    "description": "Smart home display with voice control",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r35-1",
+        "userId": "u222",
+        "userName": "Tom Lee",
+        "rating": 5,
+        "comment": "Best tech purchase I've made this year.",
+        "date": "2024-02-10"
+      },
+      {
+        "id": "r35-2",
+        "userId": "u136",
+        "userName": "Sophie Williams",
+        "rating": 5,
+        "comment": "Amazing features and easy to use.",
+        "date": "2024-02-06"
+      },
+      {
+        "id": "r35-3",
+        "userId": "u826",
+        "userName": "Ryan Davis",
+        "rating": 5,
+        "comment": "Amazing features and easy to use.",
+        "date": "2024-02-07"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Blazer",
+    "price": 199,
+    "category": "clothing",
+    "image": "/product-36",
+    "description": "Classic fit blazer in navy blue",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r36-1",
+        "userId": "u757",
+        "userName": "Rachel Smith",
+        "rating": 5,
+        "comment": "Very comfortable and stylish.",
+        "date": "2024-02-11"
+      },
+      {
+        "id": "r36-2",
+        "userId": "u654",
+        "userName": "Rachel Garcia",
+        "rating": 5,
+        "comment": "Perfect fit and great quality!",
+        "date": "2024-02-03"
+      },
+      {
+        "id": "r36-3",
+        "userId": "u334",
+        "userName": "Kate Davis",
+        "rating": 5,
+        "comment": "Perfect fit and great quality!",
+        "date": "2024-02-13"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "name": "Dune",
+    "price": 18,
+    "category": "books",
+    "image": "/product-37",
+    "description": "Frank Herbert's sci-fi masterpiece",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "38",
+    "name": "Area Rug",
+    "price": 199,
+    "category": "home",
+    "image": "/product-38",
+    "description": "Large area rug with modern pattern",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "39",
+    "name": "Wireless Keyboard",
+    "price": 89,
+    "category": "electronics",
+    "image": "/product-39",
+    "description": "Slim wireless keyboard with numeric pad",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "40",
+    "name": "Dress Pants",
+    "price": 89,
+    "category": "clothing",
+    "image": "/product-40",
+    "description": "Classic fit dress pants in wool blend",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r40-1",
+        "userId": "u466",
+        "userName": "Sophie Taylor",
+        "rating": 5,
+        "comment": "Very comfortable and stylish.",
+        "date": "2024-02-11"
+      },
+      {
+        "id": "r40-2",
+        "userId": "u331",
+        "userName": "Lisa Miller",
+        "rating": 5,
+        "comment": "Love the design and comfort!",
+        "date": "2024-02-11"
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "name": "Pride and Prejudice",
+    "price": 15,
+    "category": "books",
+    "image": "/product-41",
+    "description": "Jane Austen's beloved classic",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r41-1",
+        "userId": "u354",
+        "userName": "Alex Wilson",
+        "rating": 5,
+        "comment": "Beautifully written and engaging.",
+        "date": "2024-02-10"
+      },
+      {
+        "id": "r41-2",
+        "userId": "u271",
+        "userName": "Chris Williams",
+        "rating": 4,
+        "comment": "Enjoyed it overall, some chapters drag.",
+        "date": "2024-02-10"
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Floor Lamp",
+    "price": 149,
+    "category": "home",
+    "image": "/product-42",
+    "description": "Modern floor lamp with reading light",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r42-1",
+        "userId": "u805",
+        "userName": "Kate Lee",
+        "rating": 5,
+        "comment": "Excellent product, very satisfied.",
+        "date": "2024-02-10"
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Curved Monitor",
+    "price": 399,
+    "category": "electronics",
+    "image": "/product-43",
+    "description": "34-inch curved gaming monitor",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r43-1",
+        "userId": "u801",
+        "userName": "Julia Lee",
+        "rating": 5,
+        "comment": "Best tech purchase I've made this year.",
+        "date": "2024-02-13"
+      },
+      {
+        "id": "r43-2",
+        "userId": "u606",
+        "userName": "Maria Smith",
+        "rating": 5,
+        "comment": "Best tech purchase I've made this year.",
+        "date": "2024-02-02"
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "name": "Winter Boots",
+    "price": 159,
+    "category": "clothing",
+    "image": "/product-44",
+    "description": "Waterproof winter boots with fur lining",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r44-1",
+        "userId": "u263",
+        "userName": "Laura White",
+        "rating": 4,
+        "comment": "Good purchase, minor fit issues.",
+        "date": "2024-02-08"
+      },
+      {
+        "id": "r44-2",
+        "userId": "u945",
+        "userName": "Tom Martinez",
+        "rating": 5,
+        "comment": "Perfect fit and great quality!",
+        "date": "2024-02-02"
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "name": "The Hobbit",
+    "price": 20,
+    "category": "books",
+    "image": "/product-45",
+    "description": "Illustrated edition of The Hobbit",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "46",
+    "name": "Storage Cabinet",
+    "price": 299,
+    "category": "home",
+    "image": "/product-46",
+    "description": "Modern storage cabinet with drawers",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r46-1",
+        "userId": "u237",
+        "userName": "Julia Garcia",
+        "rating": 5,
+        "comment": "Great quality and looks beautiful.",
+        "date": "2024-02-11"
+      },
+      {
+        "id": "r46-2",
+        "userId": "u701",
+        "userName": "Emma Anderson",
+        "rating": 4,
+        "comment": "Good quality but assembly was tricky.",
+        "date": "2024-02-01"
+      },
+      {
+        "id": "r46-3",
+        "userId": "u599",
+        "userName": "Kate Harris",
+        "rating": 4,
+        "comment": "Works well, slightly overpriced.",
+        "date": "2024-02-07"
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "name": "Webcam",
+    "price": 79,
+    "category": "electronics",
+    "image": "/product-47",
+    "description": "1080p webcam with microphone",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r47-1",
+        "userId": "u270",
+        "userName": "Laura Martinez",
+        "rating": 5,
+        "comment": "Amazing features and easy to use.",
+        "date": "2024-02-13"
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "name": "Silk Scarf",
+    "price": 49,
+    "category": "clothing",
+    "image": "/product-48",
+    "description": "100% silk scarf with floral pattern",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r48-1",
+        "userId": "u405",
+        "userName": "David Davis",
+        "rating": 5,
+        "comment": "Very comfortable and stylish.",
+        "date": "2024-02-07"
+      },
+      {
+        "id": "r48-2",
+        "userId": "u511",
+        "userName": "Ryan Martinez",
+        "rating": 5,
+        "comment": "Love the design and comfort!",
+        "date": "2024-02-07"
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "name": "The Alchemist",
+    "price": 16,
+    "category": "books",
+    "image": "/product-49",
+    "description": "Paulo Coelho's international bestseller",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r49-1",
+        "userId": "u538",
+        "userName": "David Johnson",
+        "rating": 5,
+        "comment": "Beautifully written and engaging.",
+        "date": "2024-02-14"
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "name": "Wall Clock",
+    "price": 59,
+    "category": "home",
+    "image": "/product-50",
+    "description": "Modern wall clock with silent movement",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "51",
+    "name": "External SSD",
+    "price": 149,
+    "category": "electronics",
+    "image": "/product-51",
+    "description": "1TB portable SSD with USB-C",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r51-1",
+        "userId": "u399",
+        "userName": "Lisa Anderson",
+        "rating": 4,
+        "comment": "Works well, minor software issues.",
+        "date": "2024-02-09"
+      },
+      {
+        "id": "r51-2",
+        "userId": "u489",
+        "userName": "Rachel Brown",
+        "rating": 5,
+        "comment": "Amazing features and easy to use.",
+        "date": "2024-02-09"
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "name": "Leather Belt",
+    "price": 45,
+    "category": "clothing",
+    "image": "/product-52",
+    "description": "Genuine leather belt with classic buckle",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r52-1",
+        "userId": "u326",
+        "userName": "Ryan Moore",
+        "rating": 4,
+        "comment": "Nice material but limited color options.",
+        "date": "2024-02-07"
+      },
+      {
+        "id": "r52-2",
+        "userId": "u454",
+        "userName": "Alex Lee",
+        "rating": 4,
+        "comment": "Good quality but sizing runs large.",
+        "date": "2024-02-06"
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "name": "The Catcher in the Rye",
+    "price": 14,
+    "category": "books",
+    "image": "/product-53",
+    "description": "J.D. Salinger's classic novel",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r53-1",
+        "userId": "u330",
+        "userName": "Maria Williams",
+        "rating": 5,
+        "comment": "Beautifully written and engaging.",
+        "date": "2024-02-11"
+      },
+      {
+        "id": "r53-2",
+        "userId": "u856",
+        "userName": "James Smith",
+        "rating": 4,
+        "comment": "Good read but slow in some parts.",
+        "date": "2024-02-06"
+      },
+      {
+        "id": "r53-3",
+        "userId": "u296",
+        "userName": "Sophie Miller",
+        "rating": 5,
+        "comment": "Beautifully written and engaging.",
+        "date": "2024-02-02"
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "name": "Plant Stand",
+    "price": 45,
+    "category": "home",
+    "image": "/product-54",
+    "description": "Modern plant stand set of 2",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "55",
+    "name": "Graphic Card",
+    "price": 699,
+    "category": "electronics",
+    "image": "/product-55",
+    "description": "High-end gaming graphics card",
+    "inStock": false,
+    "reviews": []
+  },
+  {
+    "id": "56",
+    "name": "Sunglasses",
+    "price": 159,
+    "category": "clothing",
+    "image": "/product-56",
+    "description": "Polarized aviator sunglasses",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r56-1",
+        "userId": "u813",
+        "userName": "Tom Miller",
+        "rating": 5,
+        "comment": "Love the design and comfort!",
+        "date": "2024-02-09"
+      },
+      {
+        "id": "r56-2",
+        "userId": "u282",
+        "userName": "Emma Harris",
+        "rating": 4,
+        "comment": "Nice material but limited color options.",
+        "date": "2024-02-05"
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "name": "Brave New World",
+    "price": 15,
+    "category": "books",
+    "image": "/product-57",
+    "description": "Aldous Huxley's dystopian novel",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r57-1",
+        "userId": "u968",
+        "userName": "Anna Moore",
+        "rating": 5,
+        "comment": "Couldn't put it down!",
+        "date": "2024-02-02"
+      },
+      {
+        "id": "r57-2",
+        "userId": "u927",
+        "userName": "Lisa Moore",
+        "rating": 5,
+        "comment": "Thoroughly enjoyed this book.",
+        "date": "2024-02-05"
+      }
+    ]
+  },
+  {
+    "id": "58",
+    "name": "Desk Organizer",
+    "price": 35,
+    "category": "home",
+    "image": "/product-58",
+    "description": "Wooden desk organizer with drawers",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r58-1",
+        "userId": "u623",
+        "userName": "Peter Thomas",
+        "rating": 5,
+        "comment": "Excellent product, very satisfied.",
+        "date": "2024-02-13"
+      },
+      {
+        "id": "r58-2",
+        "userId": "u500",
+        "userName": "Anna Brown",
+        "rating": 4,
+        "comment": "Works well, slightly overpriced.",
+        "date": "2024-02-02"
+      }
+    ]
+  },
+  {
+    "id": "59",
+    "name": "Power Bank",
+    "price": 49,
+    "category": "electronics",
+    "image": "/product-59",
+    "description": "20000mAh power bank with fast charging",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r59-1",
+        "userId": "u239",
+        "userName": "Rachel Martinez",
+        "rating": 5,
+        "comment": "Amazing features and easy to use.",
+        "date": "2024-02-12"
+      },
+      {
+        "id": "r59-2",
+        "userId": "u308",
+        "userName": "David Miller",
+        "rating": 5,
+        "comment": "Excellent performance and build quality!",
+        "date": "2024-02-02"
+      },
+      {
+        "id": "r59-3",
+        "userId": "u501",
+        "userName": "Ryan Thompson",
+        "rating": 5,
+        "comment": "Amazing features and easy to use.",
+        "date": "2024-02-14"
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "name": "Leather Wallet",
+    "price": 79,
+    "category": "clothing",
+    "image": "/product-60",
+    "description": "RFID-blocking leather wallet",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "61",
+    "name": "The Road",
+    "price": 16,
+    "category": "books",
+    "image": "/product-61",
+    "description": "Cormac McCarthy's post-apocalyptic tale",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r61-1",
+        "userId": "u402",
+        "userName": "Maria Moore",
+        "rating": 4,
+        "comment": "Enjoyed it overall, some chapters drag.",
+        "date": "2024-02-01"
+      }
+    ]
+  },
+  {
+    "id": "62",
+    "name": "Curtains",
+    "price": 89,
+    "category": "home",
+    "image": "/product-62",
+    "description": "Blackout curtains set of 2",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r62-1",
+        "userId": "u903",
+        "userName": "Kate Anderson",
+        "rating": 5,
+        "comment": "Great quality and looks beautiful.",
+        "date": "2024-02-07"
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "name": "Smart Watch",
+    "price": 299,
+    "category": "electronics",
+    "image": "/product-63",
+    "description": "Advanced fitness tracking smartwatch",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r63-1",
+        "userId": "u129",
+        "userName": "Michael Miller",
+        "rating": 4,
+        "comment": "Nice product, still learning all the features.",
+        "date": "2024-02-11"
+      },
+      {
+        "id": "r63-2",
+        "userId": "u846",
+        "userName": "Chris Rodriguez",
+        "rating": 5,
+        "comment": "Excellent performance and build quality!",
+        "date": "2024-02-03"
+      },
+      {
+        "id": "r63-3",
+        "userId": "u430",
+        "userName": "John Lee",
+        "rating": 4,
+        "comment": "Works well, minor software issues.",
+        "date": "2024-02-03"
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "name": "Leather Gloves",
+    "price": 59,
+    "category": "clothing",
+    "image": "/product-64",
+    "description": "Touchscreen-compatible leather gloves",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "65",
+    "name": "The Odyssey",
+    "price": 18,
+    "category": "books",
+    "image": "/product-65",
+    "description": "Homer's epic translated by Emily Wilson",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "66",
+    "name": "Knife Set",
+    "price": 199,
+    "category": "home",
+    "image": "/product-66",
+    "description": "Professional 8-piece knife set",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "67",
+    "name": "Drone",
+    "price": 599,
+    "category": "electronics",
+    "image": "/product-67",
+    "description": "4K camera drone with GPS",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r67-1",
+        "userId": "u286",
+        "userName": "Alex Williams",
+        "rating": 5,
+        "comment": "Best tech purchase I've made this year.",
+        "date": "2024-02-06"
+      },
+      {
+        "id": "r67-2",
+        "userId": "u642",
+        "userName": "John Lee",
+        "rating": 5,
+        "comment": "Works perfectly, highly recommend!",
+        "date": "2024-02-02"
+      },
+      {
+        "id": "r67-3",
+        "userId": "u397",
+        "userName": "Chris Martinez",
+        "rating": 4,
+        "comment": "Works well, minor software issues.",
+        "date": "2024-02-13"
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "name": "Rain Jacket",
+    "price": 129,
+    "category": "clothing",
+    "image": "/product-68",
+    "description": "Lightweight packable rain jacket",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "69",
+    "name": "Foundation Trilogy",
+    "price": 35,
+    "category": "books",
+    "image": "/product-69",
+    "description": "Isaac Asimov's sci-fi trilogy",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r69-1",
+        "userId": "u801",
+        "userName": "Sophie Moore",
+        "rating": 5,
+        "comment": "Beautifully written and engaging.",
+        "date": "2024-02-03"
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "name": "Blender",
+    "price": 159,
+    "category": "home",
+    "image": "/product-70",
+    "description": "High-speed blender with multiple settings",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "71",
+    "name": "Security Camera",
+    "price": 129,
+    "category": "electronics",
+    "image": "/product-71",
+    "description": "WiFi security camera with night vision",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r71-1",
+        "userId": "u697",
+        "userName": "David Thomas",
+        "rating": 4,
+        "comment": "Nice product, still learning all the features.",
+        "date": "2024-02-14"
+      }
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Swim Shorts",
+    "price": 39,
+    "category": "clothing",
+    "image": "/product-72",
+    "description": "Quick-dry swim shorts",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r72-1",
+        "userId": "u495",
+        "userName": "Emma Harris",
+        "rating": 5,
+        "comment": "Very comfortable and stylish.",
+        "date": "2024-02-02"
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "name": "Don Quixote",
+    "price": 22,
+    "category": "books",
+    "image": "/product-73",
+    "description": "Cervantes' masterpiece",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r73-1",
+        "userId": "u828",
+        "userName": "Ryan Harris",
+        "rating": 4,
+        "comment": "Enjoyed it overall, some chapters drag.",
+        "date": "2024-02-02"
+      },
+      {
+        "id": "r73-2",
+        "userId": "u288",
+        "userName": "James Miller",
+        "rating": 5,
+        "comment": "A must-read, excellent edition.",
+        "date": "2024-02-13"
+      },
+      {
+        "id": "r73-3",
+        "userId": "u331",
+        "userName": "Emma Brown",
+        "rating": 5,
+        "comment": "Thoroughly enjoyed this book.",
+        "date": "2024-02-13"
+      }
+    ]
+  },
+  {
+    "id": "74",
+    "name": "Vacuum Cleaner",
+    "price": 299,
+    "category": "home",
+    "image": "/product-74",
+    "description": "Bagless vacuum cleaner with HEPA filter",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "75",
+    "name": "Network Router",
+    "price": 199,
+    "category": "electronics",
+    "image": "/product-75",
+    "description": "WiFi 6 mesh router system",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r75-1",
+        "userId": "u754",
+        "userName": "Chris Brown",
+        "rating": 5,
+        "comment": "Works perfectly, highly recommend!",
+        "date": "2024-02-13"
+      },
+      {
+        "id": "r75-2",
+        "userId": "u298",
+        "userName": "David Rodriguez",
+        "rating": 5,
+        "comment": "Best tech purchase I've made this year.",
+        "date": "2024-02-02"
+      },
+      {
+        "id": "r75-3",
+        "userId": "u535",
+        "userName": "Tom White",
+        "rating": 4,
+        "comment": "Good device but a bit pricey.",
+        "date": "2024-02-03"
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "name": "Wool Coat",
+    "price": 299,
+    "category": "clothing",
+    "image": "/product-76",
+    "description": "Classic wool winter coat",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "77",
+    "name": "War and Peace",
+    "price": 25,
+    "category": "books",
+    "image": "/product-77",
+    "description": "Tolstoy's epic novel",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "78",
+    "name": "Food Processor",
+    "price": 179,
+    "category": "home",
+    "image": "/product-78",
+    "description": "10-cup food processor with attachments",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "79",
+    "name": "Printer",
+    "price": 299,
+    "category": "electronics",
+    "image": "/product-79",
+    "description": "Color laser printer with WiFi",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "80",
+    "name": "Dress Shoes",
+    "price": 199,
+    "category": "clothing",
+    "image": "/product-80",
+    "description": "Leather Oxford dress shoes",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r80-1",
+        "userId": "u674",
+        "userName": "Tom Thomas",
+        "rating": 4,
+        "comment": "Good quality but sizing runs large.",
+        "date": "2024-02-06"
+      },
+      {
+        "id": "r80-2",
+        "userId": "u962",
+        "userName": "Michael Wilson",
+        "rating": 4,
+        "comment": "Good purchase, minor fit issues.",
+        "date": "2024-02-01"
+      }
+    ]
+  },
+  {
+    "id": "81",
+    "name": "The Divine Comedy",
+    "price": 24,
+    "category": "books",
+    "image": "/product-81",
+    "description": "Dante's complete work",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r81-1",
+        "userId": "u434",
+        "userName": "Tom Davis",
+        "rating": 4,
+        "comment": "Well written but not my favorite.",
+        "date": "2024-02-08"
+      },
+      {
+        "id": "r81-2",
+        "userId": "u601",
+        "userName": "Alex Rodriguez",
+        "rating": 5,
+        "comment": "Thoroughly enjoyed this book.",
+        "date": "2024-02-02"
+      },
+      {
+        "id": "r81-3",
+        "userId": "u422",
+        "userName": "John Thompson",
+        "rating": 5,
+        "comment": "A must-read, excellent edition.",
+        "date": "2024-02-13"
+      }
+    ]
+  },
+  {
+    "id": "82",
+    "name": "Stand Mixer",
+    "price": 349,
+    "category": "home",
+    "image": "/product-82",
+    "description": "Professional stand mixer with attachments",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r82-1",
+        "userId": "u174",
+        "userName": "Emma Taylor",
+        "rating": 5,
+        "comment": "Perfect addition to our home!",
+        "date": "2024-02-13"
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "name": "Desktop PC",
+    "price": 1299,
+    "category": "electronics",
+    "image": "/product-83",
+    "description": "High-performance desktop computer",
+    "inStock": true,
+    "reviews": []
+  },
+  {
+    "id": "84",
+    "name": "Silk Tie",
+    "price": 49,
+    "category": "clothing",
+    "image": "/product-84",
+    "description": "100% silk tie in classic patterns",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r84-1",
+        "userId": "u457",
+        "userName": "Sarah Wilson",
+        "rating": 5,
+        "comment": "Perfect fit and great quality!",
+        "date": "2024-02-10"
+      },
+      {
+        "id": "r84-2",
+        "userId": "u598",
+        "userName": "Lisa Taylor",
+        "rating": 5,
+        "comment": "Perfect fit and great quality!",
+        "date": "2024-02-05"
+      },
+      {
+        "id": "r84-3",
+        "userId": "u479",
+        "userName": "Kate Taylor",
+        "rating": 4,
+        "comment": "Nice material but limited color options.",
+        "date": "2024-02-09"
+      }
+    ]
+  },
+  {
+    "id": "85",
+    "name": "Crime and Punishment",
+    "price": 19,
+    "category": "books",
+    "image": "/product-85",
+    "description": "Dostoevsky's psychological thriller",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r85-1",
+        "userId": "u343",
+        "userName": "James Lee",
+        "rating": 5,
+        "comment": "Couldn't put it down!",
+        "date": "2024-02-14"
+      },
+      {
+        "id": "r85-2",
+        "userId": "u350",
+        "userName": "Daniel Harris",
+        "rating": 5,
+        "comment": "Couldn't put it down!",
+        "date": "2024-02-08"
+      }
+    ]
+  },
+  {
+    "id": "86",
+    "name": "Air Fryer",
+    "price": 129,
+    "category": "home",
+    "image": "/product-86",
+    "description": "Digital air fryer with presets",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r86-1",
+        "userId": "u974",
+        "userName": "James Garcia",
+        "rating": 5,
+        "comment": "Great quality and looks beautiful.",
+        "date": "2024-02-09"
+      },
+      {
+        "id": "r86-2",
+        "userId": "u133",
+        "userName": "David Lee",
+        "rating": 5,
+        "comment": "Perfect addition to our home!",
+        "date": "2024-02-03"
+      },
+      {
+        "id": "r86-3",
+        "userId": "u283",
+        "userName": "Kate Garcia",
+        "rating": 5,
+        "comment": "Perfect addition to our home!",
+        "date": "2024-02-09"
+      }
+    ]
+  },
+  {
+    "id": "87",
+    "name": "Sound Bar",
+    "price": 299,
+    "category": "electronics",
+    "image": "/product-87",
+    "description": "2.1 channel sound bar with subwoofer",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r87-1",
+        "userId": "u616",
+        "userName": "James Brown",
+        "rating": 5,
+        "comment": "Best tech purchase I've made this year.",
+        "date": "2024-02-12"
+      },
+      {
+        "id": "r87-2",
+        "userId": "u191",
+        "userName": "Michael Taylor",
+        "rating": 4,
+        "comment": "Works well, minor software issues.",
+        "date": "2024-02-10"
+      },
+      {
+        "id": "r87-3",
+        "userId": "u728",
+        "userName": "Chris Taylor",
+        "rating": 4,
+        "comment": "Nice product, still learning all the features.",
+        "date": "2024-02-14"
+      }
+    ]
+  },
+  {
+    "id": "88",
+    "name": "Pajama Set",
+    "price": 59,
+    "category": "clothing",
+    "image": "/product-88",
+    "description": "Cotton pajama set with long sleeves",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r88-1",
+        "userId": "u241",
+        "userName": "Alex Taylor",
+        "rating": 4,
+        "comment": "Comfortable but price is a bit high.",
+        "date": "2024-02-14"
+      }
+    ]
+  },
+  {
+    "id": "89",
+    "name": "The Count of Monte Cristo",
+    "price": 21,
+    "category": "books",
+    "image": "/product-89",
+    "description": "Dumas' tale of revenge",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r89-1",
+        "userId": "u684",
+        "userName": "Peter Williams",
+        "rating": 5,
+        "comment": "Couldn't put it down!",
+        "date": "2024-02-04"
+      },
+      {
+        "id": "r89-2",
+        "userId": "u450",
+        "userName": "James Smith",
+        "rating": 5,
+        "comment": "Couldn't put it down!",
+        "date": "2024-02-03"
+      },
+      {
+        "id": "r89-3",
+        "userId": "u985",
+        "userName": "Daniel Harris",
+        "rating": 4,
+        "comment": "Well written but not my favorite.",
+        "date": "2024-02-08"
+      }
+    ]
+  },
+  {
+    "id": "90",
+    "name": "Toaster Oven",
+    "price": 149,
+    "category": "home",
+    "image": "/product-90",
+    "description": "Digital convection toaster oven",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r90-1",
+        "userId": "u919",
+        "userName": "Chris Brown",
+        "rating": 4,
+        "comment": "Works well, slightly overpriced.",
+        "date": "2024-02-12"
+      },
+      {
+        "id": "r90-2",
+        "userId": "u213",
+        "userName": "Ryan Thompson",
+        "rating": 5,
+        "comment": "Excellent product, very satisfied.",
+        "date": "2024-02-07"
+      },
+      {
+        "id": "r90-3",
+        "userId": "u576",
+        "userName": "James Thomas",
+        "rating": 4,
+        "comment": "Nice product, shipping took a while.",
+        "date": "2024-02-05"
+      }
+    ]
+  },
+  {
+    "id": "91",
+    "name": "Gaming PC",
+    "price": 1999,
+    "category": "electronics",
+    "image": "/product-91",
+    "description": "High-end gaming desktop",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r91-1",
+        "userId": "u506",
+        "userName": "Alex Miller",
+        "rating": 5,
+        "comment": "Excellent performance and build quality!",
+        "date": "2024-02-12"
+      },
+      {
+        "id": "r91-2",
+        "userId": "u718",
+        "userName": "Kate Taylor",
+        "rating": 5,
+        "comment": "Works perfectly, highly recommend!",
+        "date": "2024-02-02"
+      }
+    ]
+  },
+  {
+    "id": "92",
+    "name": "Cashmere Scarf",
+    "price": 129,
+    "category": "clothing",
+    "image": "/product-92",
+    "description": "100% cashmere scarf",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r92-1",
+        "userId": "u809",
+        "userName": "Emma Garcia",
+        "rating": 5,
+        "comment": "Perfect fit and great quality!",
+        "date": "2024-02-14"
+      },
+      {
+        "id": "r92-2",
+        "userId": "u820",
+        "userName": "Maria Johnson",
+        "rating": 4,
+        "comment": "Comfortable but price is a bit high.",
+        "date": "2024-02-03"
+      },
+      {
+        "id": "r92-3",
+        "userId": "u527",
+        "userName": "Emma Harris",
+        "rating": 5,
+        "comment": "Excellent material and craftsmanship.",
+        "date": "2024-02-03"
+      }
+    ]
+  },
+  {
+    "id": "93",
+    "name": "The Picture of Dorian Gray",
+    "price": 17,
+    "category": "books",
+    "image": "/product-93",
+    "description": "Oscar Wilde's gothic masterpiece",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r93-1",
+        "userId": "u182",
+        "userName": "Rachel Martinez",
+        "rating": 5,
+        "comment": "Thoroughly enjoyed this book.",
+        "date": "2024-02-03"
+      },
+      {
+        "id": "r93-2",
+        "userId": "u760",
+        "userName": "Sarah Taylor",
+        "rating": 4,
+        "comment": "Good read but slow in some parts.",
+        "date": "2024-02-12"
+      },
+      {
+        "id": "r93-3",
+        "userId": "u648",
+        "userName": "Rachel Taylor",
+        "rating": 5,
+        "comment": "Couldn't put it down!",
+        "date": "2024-02-14"
+      }
+    ]
+  },
+  {
+    "id": "94",
+    "name": "Slow Cooker",
+    "price": 89,
+    "category": "home",
+    "image": "/product-94",
+    "description": "6-quart programmable slow cooker",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r94-1",
+        "userId": "u980",
+        "userName": "Sarah Thomas",
+        "rating": 5,
+        "comment": "Exactly what we needed!",
+        "date": "2024-02-01"
+      }
+    ]
+  },
+  {
+    "id": "95",
+    "name": "VR Headset",
+    "price": 499,
+    "category": "electronics",
+    "image": "/product-95",
+    "description": "High-resolution VR headset",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r95-1",
+        "userId": "u464",
+        "userName": "Ryan Jones",
+        "rating": 4,
+        "comment": "Solid performance, could use some improvements.",
+        "date": "2024-02-04"
+      },
+      {
+        "id": "r95-2",
+        "userId": "u461",
+        "userName": "Chris Lee",
+        "rating": 5,
+        "comment": "Best tech purchase I've made this year.",
+        "date": "2024-02-06"
+      }
+    ]
+  },
+  {
+    "id": "96",
+    "name": "Leather Briefcase",
+    "price": 249,
+    "category": "clothing",
+    "image": "/product-96",
+    "description": "Professional leather briefcase",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r96-1",
+        "userId": "u565",
+        "userName": "Laura Martin",
+        "rating": 5,
+        "comment": "Love the design and comfort!",
+        "date": "2024-02-11"
+      },
+      {
+        "id": "r96-2",
+        "userId": "u439",
+        "userName": "Ryan White",
+        "rating": 4,
+        "comment": "Good quality but sizing runs large.",
+        "date": "2024-02-13"
+      }
+    ]
+  },
+  {
+    "id": "97",
+    "name": "The Metamorphosis",
+    "price": 13,
+    "category": "books",
+    "image": "/product-97",
+    "description": "Kafka's surreal masterpiece",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r97-1",
+        "userId": "u514",
+        "userName": "Emma Johnson",
+        "rating": 5,
+        "comment": "Thoroughly enjoyed this book.",
+        "date": "2024-02-11"
+      },
+      {
+        "id": "r97-2",
+        "userId": "u382",
+        "userName": "Ryan Rodriguez",
+        "rating": 5,
+        "comment": "A must-read, excellent edition.",
+        "date": "2024-02-09"
+      },
+      {
+        "id": "r97-3",
+        "userId": "u508",
+        "userName": "Emma Brown",
+        "rating": 5,
+        "comment": "Beautifully written and engaging.",
+        "date": "2024-02-11"
+      }
+    ]
+  },
+  {
+    "id": "98",
+    "name": "Rice Cooker",
+    "price": 79,
+    "category": "home",
+    "image": "/product-98",
+    "description": "Digital rice cooker with steamer",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r98-1",
+        "userId": "u620",
+        "userName": "Emma Harris",
+        "rating": 5,
+        "comment": "Perfect addition to our home!",
+        "date": "2024-02-10"
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "name": "Smart Doorbell",
+    "price": 179,
+    "category": "electronics",
+    "image": "/product-99",
+    "description": "WiFi video doorbell with camera",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r99-1",
+        "userId": "u284",
+        "userName": "Emma White",
+        "rating": 4,
+        "comment": "Good device but a bit pricey.",
+        "date": "2024-02-02"
+      },
+      {
+        "id": "r99-2",
+        "userId": "u497",
+        "userName": "Tom Davis",
+        "rating": 4,
+        "comment": "Good device but a bit pricey.",
+        "date": "2024-02-06"
+      },
+      {
+        "id": "r99-3",
+        "userId": "u982",
+        "userName": "Kate Thompson",
+        "rating": 5,
+        "comment": "Amazing features and easy to use.",
+        "date": "2024-02-08"
+      }
+    ]
+  },
+  {
+    "id": "100",
+    "name": "Wool Socks Set",
+    "price": 29,
+    "category": "clothing",
+    "image": "/product-100",
+    "description": "Merino wool socks 4-pack",
+    "inStock": true,
+    "reviews": [
+      {
+        "id": "r100-1",
+        "userId": "u195",
+        "userName": "Sophie Anderson",
+        "rating": 5,
+        "comment": "Love the design and comfort!",
+        "date": "2024-02-08"
+      },
+      {
+        "id": "r100-2",
+        "userId": "u506",
+        "userName": "Peter Miller",
+        "rating": 4,
+        "comment": "Good purchase, minor fit issues.",
+        "date": "2024-02-08"
+      },
+      {
+        "id": "r100-3",
+        "userId": "u479",
+        "userName": "Chris Thompson",
+        "rating": 5,
+        "comment": "Love the design and comfort!",
+        "date": "2024-02-12"
+      }
+    ]
+  }
+]
