@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Review } from "@/lib/types/product";
-import { getProductReviews } from "@/lib/api/products";
+import { productsApi } from "@/lib/api/products";
 import {
   ReviewsContainer,
   ReviewItem,
@@ -42,7 +42,7 @@ export const ReviewList = ({ productId, visible }: ReviewListProps) => {
       try {
         setIsLoading(true);
         setError(null);
-        const data = await getProductReviews(productId);
+        const data = await productsApi.getProductReviews(productId);
         setReviews(data);
       } catch {
         setError("Failed to load reviews. Please try again later.");

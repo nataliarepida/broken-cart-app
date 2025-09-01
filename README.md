@@ -11,7 +11,8 @@ A modern, responsive e-commerce application built with Next.js 15, TypeScript, a
 - **Product Listing Page (PLP)**: Browse all products with a clean, responsive grid layout
 - **Product Details Page**: View detailed product information and reviews
 - **Shopping Cart**: Add, remove, and manage items with persistent storage
-- **Filtering & Sorting**: Filter by category and sort by price or name
+- **Search & Filtering**: Search products in real-time with debouncing, filter by category
+- **Sorting**: Sort products by price or name
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 
 ### Technical Features
@@ -22,6 +23,7 @@ A modern, responsive e-commerce application built with Next.js 15, TypeScript, a
 - **Local Storage**: Cart persistence across browser sessions
 - **API Routes**: Built-in API endpoints for products and reviews
 - **React 19**: Latest React features and improvements
+- **Real-time Search**: Debounced search functionality with optimized performance
 
 ## 🛠 Tech Stack
 
@@ -40,6 +42,7 @@ src/
 │   ├── ui/                 # Reusable UI components
 │   │   ├── Button.tsx
 │   │   ├── Card.tsx
+|   |   ├── SearchInput.tsx
 │   │   └── header/        # Header components
 │   ├── cart/              # Cart-related components
 │   │   ├── CartIcon/
@@ -126,6 +129,7 @@ The application uses a comprehensive design system with:
 ### Product Listing Page (`/`)
 
 - Responsive product grid layout
+- Real-time product search with debouncing
 - Category filtering
 - Price and name sorting
 - Loading and empty states
@@ -173,7 +177,6 @@ The application uses a comprehensive design system with:
 ### Planned Features
 
 - User authentication
-- Search functionality
 - Wishlist
 - Checkout process
 - Order history

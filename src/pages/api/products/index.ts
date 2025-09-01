@@ -35,36 +35,25 @@ export default async function handler(
   // Simulate network delay
   await simulateNetworkDelay();
 
-  const { category, minPrice, maxPrice, inStock, sortBy } = req.query;
+  const { category, search, sortBy } = req.query;
 
   let filteredProducts = [...products];
 
-  // Apply filters
   if (category) {
     filteredProducts = filteredProducts.filter(
       (p) => p.category === (category as ProductCategory)
     );
   }
 
-  if (minPrice) {
+  if (search) {
+    const searchTerm = (search as string).toLowerCase();
     filteredProducts = filteredProducts.filter(
-      (p) => p.price >= Number(minPrice)
+      (p) =>
+        p.name.toLowerCase().includes(searchTerm) ||
+        p.description.toLowerCase().includes(searchTerm)
     );
   }
 
-  if (maxPrice) {
-    filteredProducts = filteredProducts.filter(
-      (p) => p.price <= Number(maxPrice)
-    );
-  }
-
-  if (inStock) {
-    filteredProducts = filteredProducts.filter(
-      (p) => p.inStock === (inStock === "true")
-    );
-  }
-
-  // Apply sorting
   if (sortBy) {
     switch (sortBy) {
       case "price-asc":

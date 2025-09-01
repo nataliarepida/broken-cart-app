@@ -4,6 +4,13 @@ import styled from "styled-components";
 export const FiltersWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
+  gap: ${({ theme }) => theme.spacing.lg};
+  align-items: center;
+`;
+
+export const CategoriesWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
   gap: ${({ theme }) => theme.spacing.sm};
   align-items: center;
 `;

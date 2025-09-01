@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const FiltersSection = styled.div`
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: ${({ theme }) => theme.spacing.lg};
   margin-bottom: ${({ theme }) => theme.spacing.xl};
   padding: ${({ theme }) => theme.spacing.lg};

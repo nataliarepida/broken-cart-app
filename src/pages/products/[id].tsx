@@ -1,7 +1,7 @@
 import { GetServerSideProps } from "next";
 import { ProductDetails } from "@/components/products/ProductDetails";
 import { Product } from "@/lib/types/product";
-import { getProduct } from "@/lib/api/products";
+import { productsApi } from "@/lib/api/products";
 
 type ProductPageProps = {
   product: Product;
@@ -14,7 +14,7 @@ export default function ProductPage({ product }: ProductPageProps) {
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   try {
     const id = params?.id as string;
-    const product = await getProduct(id);
+    const product = await productsApi.getProduct(id);
 
     if (!product) {
       return {

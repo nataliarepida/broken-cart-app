@@ -9,40 +9,7 @@ const getBaseUrl = () => {
   return "";
 };
 
-export const getProduct = async (id: string): Promise<Product | null> => {
-  try {
-    const response = await fetch(`${getBaseUrl()}/api/products/${id}`);
-    const data = await response.json();
-
-    if (!response.ok) {
-      throw new Error(data.error || "Failed to fetch product");
-    }
-
-    return data.data;
-  } catch (error) {
-    console.error("Error fetching product:", error);
-    return null;
-  }
-};
-
-export const getProductReviews = async (id: string): Promise<Review[]> => {
-  try {
-    const response = await fetch(`${getBaseUrl()}/api/products/${id}/reviews`);
-    const data = await response.json();
-
-    if (!response.ok) {
-      throw new Error(data.error || "Failed to fetch reviews");
-    }
-
-    return data.data;
-  } catch (error) {
-    console.error("Error fetching reviews:", error);
-    return [];
-  }
-};
-
 export const productsApi = {
-  // Get all products with optional filtering
   async getProducts(
     filters?: ProductFilters,
     sortBy?: string
@@ -51,20 +18,13 @@ export const productsApi = {
     error?: string;
   }> {
     try {
-      // Build query string from filters
       const params = new URLSearchParams();
       if (filters) {
         if (filters.category) {
           params.append("category", filters.category);
         }
-        if (filters.minPrice !== undefined) {
-          params.append("minPrice", filters.minPrice.toString());
-        }
-        if (filters.maxPrice !== undefined) {
-          params.append("maxPrice", filters.maxPrice.toString());
-        }
-        if (filters.inStock !== undefined) {
-          params.append("inStock", filters.inStock.toString());
+        if (filters.search !== undefined) {
+          params.append("search", filters.search);
         }
       }
       if (sortBy) {
@@ -90,7 +50,6 @@ export const productsApi = {
     }
   },
 
-  // Get product categories
   async getCategories(): Promise<{
     data: string[];
     error?: string;
@@ -110,6 +69,38 @@ export const productsApi = {
         error:
           error instanceof Error ? error.message : "Failed to fetch categories",
       };
+    }
+  },
+
+  async getProduct(id: string): Promise<Product | null> {
+    try {
+      const response = await fetch(`${getBaseUrl()}/api/products/${id}`);
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to fetch product");
+      }
+
+      return data.data;
+    } catch (error) {
+      console.error("Error fetching product:", error);
+      return null;
+    }
+  },
+
+  async getProductReviews(id: string): Promise<Review[]> {
+    try {
+      const response = await fetch(`${getBaseUrl()}/api/products/${id}`);
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to fetch product");
+      }
+
+      return data.data;
+    } catch (error) {
+      console.error("Error fetching product:", error);
+      return null;
     }
   },
 };

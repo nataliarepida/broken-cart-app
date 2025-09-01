@@ -41,21 +41,32 @@ export default function HomePage({
   } = useProducts({ initialProducts, initialCategories });
 
   useEffect(() => {
-    const { category } = router.query;
+    const { category, search } = router.query;
+    const updates: Partial<typeof filters> = {};
+
     if (category) {
-      updateFilters({ category: category as ProductCategory });
+      updates.category = category as ProductCategory;
+    }
+    if (typeof search === "string") {
+      updates.search = search;
+    }
+
+    if (Object.keys(updates).length > 0) {
+      updateFilters(updates);
     }
   }, [router.query, updateFilters]);
 
-  const handleCategoryChange = (category?: ProductCategory) => {
-    updateFilters({ category });
+  const updateQueryAndFilters = (updates: Partial<typeof filters>) => {
+    updateFilters(updates);
 
     const newQuery = { ...router.query };
-    if (category) {
-      newQuery.category = category;
-    } else {
-      delete newQuery.category;
-    }
+    Object.entries(updates).forEach(([key, value]) => {
+      if (value) {
+        newQuery[key] = String(value);
+      } else {
+        delete newQuery[key];
+      }
+    });
 
     router.push(
       {
@@ -65,6 +76,14 @@ export default function HomePage({
       undefined,
       { shallow: true }
     );
+  };
+
+  const handleCategoryChange = (category?: ProductCategory) => {
+    updateQueryAndFilters({ category });
+  };
+
+  const handleSearch = (search: string) => {
+    updateQueryAndFilters({ search: search || undefined });
   };
 
   const getPageTitle = () => {
@@ -101,6 +120,7 @@ export default function HomePage({
             categories={categories}
             selectedCategory={filters.category}
             onCategoryChange={handleCategoryChange}
+            onSearch={handleSearch}
           />
           <ProductSort sortBy={sortBy} onSortChange={setSortBy} />
         </FiltersSection>
@@ -124,10 +144,11 @@ export const getServerSideProps: GetServerSideProps<HomePageProps> = async ({
     typeof query.category === "string"
       ? (query.category as ProductCategory)
       : undefined;
+  const search = typeof query.search === "string" ? query.search : undefined;
   const sortBy = typeof query.sort === "string" ? query.sort : "name-asc";
 
   const [productsResponse, categoriesResponse] = await Promise.all([
-    productsApi.getProducts({ category }, sortBy),
+    productsApi.getProducts({ category, search }, sortBy),
     productsApi.getCategories(),
   ]);
 

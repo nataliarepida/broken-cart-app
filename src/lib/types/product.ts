@@ -27,4 +27,5 @@ export type ProductFilters = {
   minPrice?: number;
   maxPrice?: number;
   inStock?: boolean;
+  search?: string;
 };
